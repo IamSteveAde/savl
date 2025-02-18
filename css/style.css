@@ -157,7 +157,7 @@ h6,
 
 @media (max-width: 768px) {
     .carousel-item img {
-        height: 100vh; /* Reduce height on smaller screens */
+        height: 60vh; /* Reduce height on smaller screens */
     }
     .navbar{
         background-color: black;
