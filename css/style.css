@@ -154,7 +154,31 @@ h6,
     outline: none;
     transition: .5s;
 }
+.navbar{
+    background-color: black;
+}
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 100vh; /* Reduce height on smaller screens */
+    }
+    
+    .carousel-caption {
+        bottom: 20px; /* Adjust caption positioning */
+    }
 
+    .carousel-caption h1 {
+        font-size: 1.8rem; /* Reduce title size */
+    }
+
+    .carousel-caption p {
+        font-size: 1rem; /* Adjust text size for readability */
+    }
+
+    .btn {
+        padding: 8px 20px; /* Adjust button size */
+        font-size: 0.9rem;
+    }
+}
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
     color: var(--dark);
@@ -177,7 +201,7 @@ h6,
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;
-        background: #FFFFFF;
+        background: black;
     }
 
     .navbar-dark .navbar-nav .nav-link,
