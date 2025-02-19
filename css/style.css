@@ -24,7 +24,9 @@
 .gre{
     font-family:'nunito', sans-serif; 
 }
-
+.lol{
+    width: 200px;
+}
 
 /*** Spinner ***/
 .spinner {
@@ -161,6 +163,9 @@ h6,
     }
     .navbar{
         background-color: black;
+    }
+    .lol{
+        width: 150px;
     }
     .carousel-caption {
         bottom: 20px; /* Adjust caption positioning */
