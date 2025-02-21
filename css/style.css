@@ -5,6 +5,10 @@
     --light: #EEF9FF;
     --dark: silver;
 }
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
 
 .big{
     font-family: 'Helvetica', sans-serif;
